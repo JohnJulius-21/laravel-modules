@@ -1,0 +1,22 @@
+{
+    "name": "johnjulius-21/auth-module",
+    "description": "Reusable Laravel authentication module",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AuthModule\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AuthModule\\AuthServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^10.0",
+        "laravel/sanctum": "^3.0"
+    }
+}
